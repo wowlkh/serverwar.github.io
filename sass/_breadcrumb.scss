@@ -1,44 +1,53 @@
-/*---------------------
-  Breadcrumb
------------------------*/
-.breadcrumb-option {
-    padding-top: 180px;
+.breadcrumb_bg {
+	@include background("../img/breadcrumb.png");
 }
 
-.breadcrumb__text {
+.breadcrumb {
+	position: relative;
+	z-index: 1;
+	text-align: center;
 
-    h2 {
-        color: $white-color;
-        font-size: 50px;
-        font-weight: 700;
-        margin-bottom: 12px;
-    }
+	.breadcrumb_iner {
+		height: 475px;
+		width: 100%;
+		display: table;
+		.breadcrumb_iner_item {
+			display: table-cell;
+			vertical-align: middle;
+			h2 {
+				color: $white_color;
+				font-size: 90px;
+				font-weight: 500;
+				margin-bottom: 10px;
+				text-transform: capitalize;
+				@media #{$small_mobile} {
+					font-size: 35px;
+				}
+
+				@media #{$large_mobile} {
+					font-size: 35px;
+				}
+
+				@media #{$tab_device} {
+					font-size: 40px;
+				}
+
+				@media #{$medium_device} {
+					font-size: 50px;
+				}
+			}
+			p {
+				font-size: 15px;
+				color: $white_color;
+			}
+			span {
+				margin: 0px 5px;
+				font-size: 12px;
+			}
+		}
+	}
 }
 
-.breadcrumb__links {
-
-    a {
-        font-size: 16px;
-        color: $white-color;
-        font-weight: 300;
-        display: inline-block;
-        margin-right: 32px;
-        position: relative;
-
-        &:after {
-            position: absolute;
-            right: -22px;
-            top: -3px;
-            content: "/";
-            color: #adadad;
-            font-size: 20px;
-        }
-    }
-
-    span {
-        font-size: 16px;
-        color: #adadad;
-        font-weight: 300;
-        display: inline-block;
-    }
+.breadcrumb {
+	margin-bottom: 0px !important;
 }
