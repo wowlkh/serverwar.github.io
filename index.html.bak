@@ -254,20 +254,19 @@
                             <div class="single_footer_part">
                                 <h4>Liderança:</h4>
                                 <p>Somos um grupo de amigos, focado na diversão e resenha entre amigos.</p>
-                                <p>Lider: Red Beira mar</p>
                                 <p>Lider: Sonic</p>
-								<p>Sub Lider: Buiu</p>
+                                <p>Lider: Mello</p>
+								<p></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-3">
                             <div class="single_footer_part">
                                 <h4>Gerencia:</h4>
                                 <ul class="list-unstyled">
-                                    <li><a href="#"> Rael - Farme</a></li>
-                                    <li><a href="#">Bauroc - Gerente Ação</a></li>
-                                    <li><a href="#">Mello - Vendas</a></li>
-                                    <li><a href="#">Veronica - Aux ação</a></li>
-                                    <li><a href="#">Robert - Aux de ação</a></li>
+                                    <li><a href="#">Rael - Gerente  Farme</a></li>
+                                    <li><a href="#">Veronica - Gerente de Ação</a></li>
+									<li><a href="#">Aurora - Gerente  Vendas/RH</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
