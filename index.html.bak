@@ -236,8 +236,6 @@
             
               Antares<span class="span">City</span>
             </h2>
-			
-
             <ul class="has-scrollbar">
 
               <li class="scrollbar-item">
@@ -319,6 +317,11 @@
 
           </div>
         </section>
+		
+		  <h2 class="h2 section-title">
+              Parceiros<span class="span">Marrocos</span>
+            </h2>
+			 </div>
 
 
 
@@ -340,6 +343,7 @@
               </figure>
 
               <div class="live-match-detail">
+			  
 
                 <p class="live-match-subtitle">Campeonato Marrocos</p>
 
