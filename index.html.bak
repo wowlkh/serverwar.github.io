@@ -65,15 +65,15 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#live" class="navbar-link skewBg" data-nav-link>Campeonato</a>
+              <a href="#campeonato" class="navbar-link skewBg" data-nav-link>Campeonato</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#features" class="navbar-link skewBg" data-nav-link>Album</a>
+              <a href="#album" class="navbar-link skewBg" data-nav-link>Album</a>
             </li>
 
             <li class="navbar-item">
-              <a href="#shop" class="navbar-link skewBg" data-nav-link>Regras</a>
+              <a href="#regras" class="navbar-link skewBg" data-nav-link>Regras</a>
             </li>
 
             <li class="navbar-item">
@@ -173,9 +173,9 @@
       <!-- 
         - #BRAND
       -->
-	   </div>
+	   
 	        <h2 class="h2 section-title">
-              Parceria<span class="span">Marrocos</span>
+              Parceiros<span class="span">Marrocos</span>
             </h2>
 			 </div>
 
@@ -197,7 +197,7 @@
             </li>
 
             <li class="brand-item">
-              <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
+              <img src="./assets/images/brand-8.png" width="90" height="90" loading="lazy" alt="brand logo">
             </li>
 
             <li class="brand-item">
@@ -363,7 +363,7 @@
         - #FEATURED GAME
       -->
 
-      <section class="section featured-game" id="features" aria-label="featured game">
+      <section class="section featured-game" id="album" aria-label="featured game">
         <div class="container">
 
           <h2 class="h2 section-title">
@@ -569,7 +569,7 @@
         - #SHOP
       -->
 
-      <section class="section shop" id="shop" aria-label="shop"
+      <section class="section shop" id="regras" aria-label="shop"
         style="background-image: url('./assets/images/shop-bg.jpg')">
         <div class="container">
 
