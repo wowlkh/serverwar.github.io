@@ -43,7 +43,7 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./assets/images/project-logo.png" alt="Marrocos">
+       <img src="./assets/images/project-logo.png" alt="Marrocos" class="animated-image">
       </a>
 
       <button class="nav-open-btn" data-nav-open-btn>
@@ -79,7 +79,7 @@
           </li>
 
           <li>
-            <a href="#team" class="navbar-link">Galeria</a>
+            <a href="#team" class="navbar-link">Album</a>
           </li>
 
          
@@ -146,13 +146,12 @@
 
           <div class="btn-group">
 
-            <button class="btn btn-primary">
-              <span>Clipe</span>
+            <button class="btn btn-primary" onclick="openYoutubeVideo('https://youtu.be/pCwmLidKaE8">
+  <span>Clipe</span>
+  <ion-icon name="play-circle"></ion-icon>
+</button>
 
-              <ion-icon name="play-circle"></ion-icon>
-            </button>
-
-            <button class="btn btn-link">RP EM ANTARES</button>
+            <button class="btn btn-primary jump-button">Antares City</button>
 
           </div>
 
@@ -223,7 +222,8 @@
                 "A família Marrocos decidiu criar dois times, A e B, para treinar e realizar ações, além de disputas internas com prêmios para os vencedores."
               </p>
 
-              <button class="btn btn-primary">Participe</button>
+             <button class="btn btn-primary jump-button">Participe</button>
+
 
             </div>
 

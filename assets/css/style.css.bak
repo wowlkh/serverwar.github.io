@@ -404,7 +404,7 @@ img {
   transition: var(--transition-3);
 }
 .animated-image {
-  animation: rotate 10s linear infinite;
+  animation: rotate 5s linear infinite;
 }
 
 @keyframes rotate {

@@ -135,45 +135,6 @@ body.active { overflow-y: hidden; }
   background: var(--orange);
   border-radius: 10px;
 }
-.about-img {
-  animation: move-image 5s linear infinite;
-}
-
-@keyframes move-image {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(500px);
-  }
-}
-.jump-button {
-  animation: jump 5.2s ease-out infinite;
-  transform-origin: center bottom;
-}
-
-@keyframes jump {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-30px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.jump-button:hover {
-  animation: none;
-}
-
-img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
 
 
 
@@ -403,18 +364,7 @@ img {
   pointer-events: all;
   transition: var(--transition-3);
 }
-.animated-image {
-  animation: rotate 10s linear infinite;
-}
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 
 
