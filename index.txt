@@ -1,297 +1,181 @@
-Gamics - Create Manage Matches
+GameX - Gaming website
 
+# HEADER
 
+alt = GameX logo
 
-#---------- HEDER ----------#
+<ion-icon name="menu-outline"></ion-icon>
 
-Exclusive Black Friday ! Offer 
-10 
-Days
+alt = GameX logo
 
-Follow us on :
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-pinterest"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
-
-Gamics
+<ion-icon name="close-outline"></ion-icon>
 
 Home
-Live
-Features
-Shop
-Blog
+About
+Tournament
+Team
+Gears
 Contact
 
-aria-label = cart
-
-<ion-icon name="cart"></ion-icon>
-0
-
-aria-label = open search
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-github"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
 
 <ion-icon name="search-outline"></ion-icon>
 
-aria-label = toggle menu
-<ion-icon name="menu-outline" class="menu"></ion-icon>
-<ion-icon name="close-outline" class="close"></ion-icon>
+<ion-icon name="log-in-outline"></ion-icon>
 
+Log-in
 
 
-#---------- SEARCH BOX ----------#
 
-aria-label = search
+# HERO
 
-placeholder = Search here...
+The Season 8
 
-aria-label = submit search
-<ion-icon name="search-outline"></ion-icon>
+Steam
 
-aria-label = close search
+Watch live
 
+<ion-icon name="play-circle"></ion-icon>
 
+Dream making
 
-#---------- HERO ----------#
 
-World Gaming
 
-Create Manage Matches
+# ABOUT
 
-Find technology or people for digital projects in public sector and Find an individual specialist develope researcher.
+alt = M shape
+alt = Game character
 
-Read More
+Find team member
 
-alt = hero banner
+Experience just for gamers offer
 
+Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. In auctor lobortis lacus. Phasellus gravida semper nisi. Aliquam lobortis.
 
+<ion-icon name="arrow-forward-circle-outline"></ion-icon>
 
-#---------- BRAND ----------#
+Will sharpen your brain and focus
 
-alt = brand logo
 
 
+# TOURNAMENT
 
-#---------- LATEST GAME ----------#
+Check out our next
 
-Latest Releases
+Gaming tournaments !
 
-Create & Manage
+Lpsum dolor sit amet, consectetur adipiscing elit, sed labore et dolore magna aliqua.
 
-alt = White Walker Daily
+Join with us
 
-Zombie
+Prize pool
 
-White Walker
-Daily
+$80000
 
-Entry Fee :
-Free
+alt = Prize image
 
-alt = Hunter Killer II
+Last winners
 
-Adventure
+alt = Winner image
 
-Hunter Killer
-II
+1st place
+2nd place
 
-Entry Fee : 
-$25.00
 
-alt = Cyberpunk Daily
 
-Action
+# GALLERY
 
-Cyberpunk
-Daily
+alt = Gallery image
 
 
 
-#---------- LIVE MATCH ----------#
+# TEAM
 
-Watch Live 
-Match
+Active Team Members
 
-alt = Live Match Video
+<ion-icon name="link-outline"></ion-icon>
 
-aria-label = play video
-<ion-icon name="play"></ion-icon>
+alt = Team member image
 
-alt = tokyo eagle
+view all members
 
-Upcoming Live Matches
 
-08:30
 
-alt = new york hunter7
+# GEARS
 
+check our gears
 
+alt = shop card bg
+alt = Headphone
 
-#---------- FEATURED GAME ----------#
+<ion-icon name="share-social"></ion-icon>
+<ion-icon name="time-outline"></ion-icon>
 
-All Released
-Games
+In 4 days
+Headphone
+e-sports
+$18
 
-alt = Just for Gamers
+<ion-icon name="add-outline"></ion-icon>
+Add to cart
+<ion-icon name="heart-outline"></ion-icon>
 
-Just for
-Gamers
+alt = Controller
+Controller
+$29
 
-<ion-icon name="notifications"></ion-icon>
+alt = Gaming mask
+Gaming mask
+$45
 
-Playstation 5, Xbox
 
-alt = Need for Speed
 
-Need for
-Speed
+# NEWSLETTER
 
-alt = Egypt Hunting Gamers
+alt = Newsletter image
 
-Egypt Hunting
-Gamers
+Subscribe to our newsletter
 
-alt = Just for Gamers
-
-Just for
-Gamers
-
-
-
-#---------- SHOP ----------#
-
-Gaming Product 
-Corner
-
-Compete with 100 players on a remote island for winner takes showdown known issue where certain skin strategic
-
-alt = Women Black T-Shirt
-
-t-shirt
-
-Women Black T-Shirt
-
-$29.00
-
-<ion-icon name="basket"></ion-icon>
-
-
-alt = Gears 5 Xbox Controller
-
-x-box
-
-Gears 5 Xbox Controller
-
-
-alt = GeForce RTX 2070
-
-Graphics
-
-GeForce RTX 2070
-
-
-alt = Virtual Reality Smiled
-
-VR-Box
-
-Virtual Reality Smiled
-
-
-
-#---------- BLOG ----------#
-
-Latest News &
-Articles
-
-Compete With 100 Players On A Remote Island For Winner Takes Showdown Known Issue Where Certain Skin Strategic
-
-alt = Shooter Action Video
-
-<ion-icon name="person-outline"></ion-icon>
-Admin
-
-<ion-icon name="calendar-outline"></ion-icon>
-September 19, 2022
-
-Shooter Action Video
-
-Compete With 100 Players On A Remote Island Thats Winner Takes Showdown Known Issue.
-
-Read More
-
-<ion-icon name="caret-forward"></ion-icon>
-
-alt = The Walking Dead
-
-alt = Defense Of The Ancients
-
-
-
-#---------- NEWSLETTER ----------#
-
-Our
-Newsletter
-
-placeholder = Enter your email...
-
-<ion-icon name="mail-outline"></ion-icon>
+placeholder = Your Email Address
 
 Subscribe
-<ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
 
 
 
-#---------- FOOTER ----------#
+# FOOTER
 
-Gamics
+alt = GameX logo
 
-Gamics marketplace the relase etras thats sheets continig passag.
+Home
+About
+Tournament
+Team
+Gears
+Contact
 
-<ion-icon name="location"></ion-icon>
-Address : PO Box W75 Street lan West new queens
+placeholder = Find Here Now
 
-<ion-icon name="headset"></ion-icon>
-Phone : +24 1245 654 235
+<ion-icon name="search-outline"></ion-icon>
 
-<ion-icon name="mail-open"></ion-icon>
-Email : info@exemple.com
+Faq
+Help center
+Terms of use
+Privacy
 
-Products
+<ion-icon name="logo-discord"></ion-icon>
+<ion-icon name="logo-twitch"></ion-icon>
+<ion-icon name="logo-xbox"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
 
-Graphics (26)
-Backgrounds (11)
-Fonts (9)
-Music (3)
-Photography (3)
+Copyright &copy; 2022 codewithsadee. all rights reserved
 
-Need Help?
-
-Terms & Conditions
-Privacy Policy
-Refund Policy
-Affiliate
-Use Cases
-
-Follow Us
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-pinterest"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
-
-Newsletter Sign Up
-
-placeholder = Enter your email
-
-aria-label = submit
-<ion-icon name="rocket"></ion-icon>
-
-&copy; 2022 Gamics. All Right Reserved by codewithsadee
+alt = Online payment companies logo
 
 
 
-#---------- BACK TO TOP ----------#
+# GO TO TOP
 
-aria-label = back to top
-
-<ion-icon name="caret-up"></ion-icon>
+<ion-icon name="chevron-up-outline"></ion-icon>

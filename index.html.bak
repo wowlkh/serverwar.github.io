@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marrocos - RP </title>
+  <title>Marrocos - RP</title>
 
   <!-- 
-    - favicon
+    - favicon link
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
 
   <!-- 
     - custom css link
@@ -23,12 +23,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
     rel="stylesheet">
-
-  <!-- 
-    - preload images
-  -->
 </head>
 
 <body id="top">
@@ -39,93 +35,96 @@
 
   <header class="header">
 
-    <div class="header-top">
-      <div class="container">
+    <!-- 
+      - overlay
+    -->
+    <div class="overlay" data-overlay></div>
 
-        <div class="countdown-text">
-          Fac  <span class="span skewBg">Maconha</span> 
-        </div>
+    <div class="container">
 
-       
-        </div>
+      <a href="#" class="logo">
+        <img src="./assets/images/project-logo.png" alt="Marrocos">
+      </a>
 
-      </div>
-    </div>
+      <button class="nav-open-btn" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
 
-    <div class="header-bottom skewBg" data-header>
-      <div class="container">
+      <nav class="navbar" data-nav>
 
-        <a href="#" class="logo">Marrocos</a>
+        <div class="navbar-top">
 
-        <nav class="navbar" data-navbar>
-          <ul class="navbar-list">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="GameX logo">
+          </a>
 
-            <li class="navbar-item">
-              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#campeonato" class="navbar-link skewBg" data-nav-link>Campeonato</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#album" class="navbar-link skewBg" data-nav-link>Album</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#regras" class="navbar-link skewBg" data-nav-link>Regras</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#parceiros" class="navbar-link skewBg" data-nav-link>Parceiros</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="#antares" class="navbar-link skewBg" data-nav-link>antares</a>
-            </li>
-			<li class="navbar-item">
-              <a href="#antares" class="navbar-link skewBg" data-nav-link>Info</a>
-</li>
-          </ul>
-        </nav>
-
-        <div class="header-actions">
-
-
-          <button class="search-btn" aria-label="open search" data-search-toggler>
-            <ion-icon name="search-outline"></ion-icon>
-          </button>
-
-          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-            <ion-icon name="menu-outline" class="menu"></ion-icon>
-            <ion-icon name="close-outline" class="close"></ion-icon>
+          <button class="nav-close-btn" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
           </button>
 
         </div>
 
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#hero" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">Quem somos</a>
+          </li>
+
+          <li>
+            <a href="#tournament" class="navbar-link">Açoes</a>
+          </li>
+
+          <li>
+            <a href="#team" class="navbar-link">Galeria</a>
+          </li>
+
+         
+        </ul>
+
+        <ul class="nav-social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        
+
+
       </div>
+
     </div>
 
   </header>
-
-
-  <!-- 
-    - #SEARCH BOX
-  -->
-
-  <div class="search-container" data-search-box>
-
-    <div class="input-wrapper">
-      <input type="search" name="search" aria-label="search" placeholder="Search here..." class="search-field">
-
-      <button class="search-submit" aria-label="submit search" data-search-toggler>
-        <ion-icon name="search-outline"></ion-icon>
-      </button>
-
-      <button class="search-close" aria-label="close search" data-search-toggler></button>
-    </div>
-
-  </div>
 
 
 
@@ -138,691 +137,269 @@
         - #HERO
       -->
 
-      <section class="section hero" id="home" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.jpg')">
-        <div class="container"> 
+      <section class="hero" id="hero">
+        <div class="container">
 
-          <div class="hero-content">
+          <p class="hero-subtitle">BEM VINDO</p>
 
-            <p class="hero-subtitle">Marrocos RP</p>
+          <h2 class="h2 hero-title">MARROSCOS RP</h2>
 
-            <h1 class="h1 hero-title">
-              Olá <span class="span">Seja</span> Bem vindo
-            </h1>
+          <div class="btn-group">
 
-            <p class="hero-text">
-              O Marrocos é uma fac de amigos, voltada ao RP em Antares City.
-            </p>
+            <button class="btn btn-primary">
+              <span>Clipe</span>
 
-            <button class="btn skewBg">Regras</button>
+              <ion-icon name="play-circle"></ion-icon>
+            </button>
+
+            <button class="btn btn-link">RP EM ANTARES</button>
 
           </div>
 
-          <figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
-            <img src="./assets/images/hero-banner.png" width="700" height="700" alt="hero banner" class="w-100">
-          </figure>
-
         </div>
       </section>
 
 
 
 
-
-      <!-- 
-        - #BRAND
-      -->
-	   </div>
-	   <section class="section live-match" id="parceiros" aria-label="live match">
-          <div class="container">
-	        <h2 class="h2 section-title">
-              Parceiros<span class="span">Marrocos</span>
-            </h2>
-			 </div>
-
-      <section class="section brand" aria-label="brand">
-        <div class="container">
-
-          <ul class="has-scrollbar">
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-8.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-            <li class="brand-item">
-              <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-             
-                      
-					 
 
       <div class="section-wrapper">
 
         <!-- 
-          - #LATEST GAME
+          - #ABOUT
         -->
 
-        <section class="section live-match" id="antares" aria-label="live match">
-          <div class="container">
-	        <h2 class="h2 section-title">
-
-            
-
-            
-              Antares<span class="span">City</span>
-            </h2>
-            <ul class="has-scrollbar">
-
-              <li class="scrollbar-item">
-                <div class="latest-game-card">
-
-                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
-                    <img src="./assets/images/latest-game-1.jpg" width="400" height="470" loading="lazy"
-                      alt="White Walker Daily" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <a href="#" class="card-badge skewBg">Updates</a>
-
-                    <h3 class="h3">
-                      <a href="#" class="card-title">Agora no Antares, <span class="span">você pode ter animais/pets.</span></a>
-                    </h3>
-
-                    <p class="card-price">
-                      Entre outras <span class="span">Novidades/Updates</span>
-                    </p>
-
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="latest-game-card">
-
-                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
-                    <img src="./assets/images/latest-game-2.jpg" width="400" height="470" loading="lazy"
-                      alt="Hunter Killer II" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <a href="https://www.instagram.com/antarescity/" class="card-badge skewBg">INSTRAGRAM</a>
-
-                    <h3 class="h3">
-                      <a href="https://www.instagram.com/antarescity/" class="card-title">ANTARES <span class="span">CITY</span></a>
-                    </h3>
-
-                    <p class="card-price">
-                      Participe.<span class="span"></span>
-                    </p>
-
-                  </div>
-
-                </div>
-              </li>
-
-              <li class="scrollbar-item">
-                <div class="latest-game-card">
-
-                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
-                    <img src="./assets/images/latest-game-3.jpg" width="400" height="470" loading="lazy"
-                      alt="Cyberpunk Daily" class="img-cover">
-                  </figure>
-
-                  <div class="card-content">
-
-                    <a href="https://discord.gg/antarescity" class="card-badge skewBg">DISCORD</a>
-
-                    <h3 class="h3">
-                      <a href="https://discord.gg/antarescity" class="card-title">DISCORD <span class="span">ANTARES CITY</span></a>
-                    </h3>
-
-                    <p class="card-price">
-                       Participe.<span class="span"></span>
-                    </p>
-
-                  </div>
-
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-        </section>
-		
-		
-
-
-
-
-
-        <!-- 
-          - #LIVE MATCH
-        -->
-
-        <section class="section live-match" id="campeonato" aria-label="live match">
+        <section class="about" id="about">
           <div class="container">
 
-            
-            <div class="live-match-player">
+            <figure class="about-banner">
 
-              <figure class="player player-1 img-holder" style="--width: 406; --height: 277;">
-                <img src="./assets/images/brand-4.png" width="406" height="277" loading="lazy"
-                  alt="tokyo eagle" class="w-100">
-              </figure>
+              <img src="./assets/images/about-img.png" alt="M shape" class="about-img">
 
-              <div class="live-match-detail">
-			  
+              
 
-                <p class="live-match-subtitle">Campeonato Marrocos</p>
+            </figure>
 
-                <time class="live-match-time" datetime="08:30">21:30</time>
+            <div class="about-content">
 
-              </div>
+              <p class="about-subtitle">MARROCOS FAMILIA</p>
 
-              <figure class="player player-2 img-holder" style="--width: 400; --height: 305;">
-                <img src="./assets/images/live-match-player-2.png" width="400" height="305" loading="lazy"
-                  alt="new york hunter7" class="w-100">
-              </figure>
+              <h2 class="about-title">Quem <strong>Somos</strong> </h2>
+
+              <p class="about-text">
+               "Somos um grupo de amigos focado em diversão. 
+			   Atualmente estamos no servidor Antares City, onde montamos uma facção Marrocos, visando fazer um roleplay de favela."
+              </p>
+
+              <p class="about-bottom-text">
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+
+                <span>Familia Marrocos</span>
+              </p>
 
             </div>
 
           </div>
         </section>
 
+
+
+
+
+        <!-- 
+          - #TOURNAMENT
+        -->
+
+        <section class="tournament" id="tournament">
+          <div class="container">
+
+            <div class="tournament-content">
+
+              <p class="tournament-subtitle">Arena Antares</p>
+
+              <h2 class="h3 tournament-title">Torneio de Arena</h2>
+
+              <p class="tournament-text">
+                "A família Marrocos decidiu criar dois times, A e B, para treinar e realizar ações, além de disputas internas com prêmios para os vencedores."
+              </p>
+
+              <button class="btn btn-primary">Participe</button>
+
+            </div>
+
+            <div class="tournament-prize">
+
+              <h2 class="h3 tournament-prize-title">Sorteio Domingo</h2>
+
+              <data value="80000">HURACAN</data>
+
+              <figure>
+                <img src="./assets/images/prize-img.png" alt="Prize image">
+              </figure>
+
+            </div>
+
+            <div class="tournament-winners">
+
+              <h2 class="h3 tournament-winners-title">TOP AÇOES</h2>
+
+              <ul class="tournament-winners-list">
+
+                <li>
+                  <div class="winner-card">
+
+                    <figure class="card-banner">
+                      <img src="./assets/images/winner-img-1.png" alt="Winner image">
+                    </figure>
+
+                    <h3 class="h5 card-title">TOP 1</h3>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="winner-card">
+
+                    <figure class="card-banner">
+                      <img src="./assets/images/winner-img-2.png" alt="Winner image">
+                    </figure>
+
+                    <h3 class="h5 card-title">TOP 2</h3>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </section>
+
+
+
+        <section class="team" id="team">
+          <div class="container">
+
+
+            
+
+            </ul>
+
+            <button class="btn btn-primary">Galeria Imagens</button>
+
+          </div>
+        </section>
+
+
+
+        <!-- 
+          - #GALLERY
+        -->
+
+        <section class="gallery">
+          <div class="container">
+
+            <ul class="gallery-list has-scrollbar">
+
+              <li>
+                <figure class="gallery-item">
+                  <img src="./assets/images/gallery-img-1.jpeg" alt="Gallery image">
+                </figure>
+              </li>
+
+              <li>
+                <figure class="gallery-item">
+                  <img src="./assets/images/gallery-img-2.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+              <li>
+                <figure class="gallery-item">
+                  <img src="./assets/images/gallery-img-3.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+              <li>
+                <figure class="gallery-item">
+                  <img src="./assets/images/gallery-img-4.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>
+
+
+
+
+
+        <!-- 
+          - #TEAM
+        -->
+
+        <section class="team" id="team">
+          <div class="container">
+
+            <h2 class="h2 section-title">Lider</h2>
+
+            
+
+            </ul>
+
+            <button class="btn btn-primary">sonic - mello</button>
+
+          </div>
+        </section>
+
+ <!-- 
+          - #TEAM
+        -->
+
+        <section class="team" id="team">
+          <div class="container">
+
+            <h2 class="h2 section-title">gerencia</h2>
+
+            
+
+            </ul>
+
+            <button class="btn btn-primary">Aurora - rael - thug - arnold - veronica </button>
+
+          </div>
+        </section>
+
+
+<!-- 
+          - #TEAM
+        -->
+
+        <section class="team" id="team">
+          <div class="container">
+
+            <h2 class="h2 section-title">Membros</h2>
+
+            
+
+            </ul>
+
+            <button class="btn btn-primary">luan - guilherme - rael - bea - th - barriga - cabral - emmy - kayzer - rick - dybala - bruno - beto - jhon - gomides - digones </button>
+
+          </div>
+        </section>
+
+
+
+
+
+
+
+          </div>
+        </section>
+
       </div>
-
-
-
-
-
-      <!-- 
-        - #FEATURED GAME
-      -->
-
-      <section class="section featured-game" id="album" aria-label="featured game">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            Galeria de <span class="span">FOTOS</span>
-          </h2>
-
-          <ul class="has-scrollbar">
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/featured-game-1.jpg" width="450" height="600" loading="lazy"
-                    alt="Just for Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                      Familia <span class="span">Marrocos</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Reunião, Parceria</span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      Familia <span class="span">Unida</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">A Melhor, fac de drogas da cidade.</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/featured-game-2.jpg" width="450" height="600" loading="lazy"
-                    alt="Need for Speed" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                      Marrocos <span class="span">Amizade</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">O melhor da familia</span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      Marrocos <span class="span">RP</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Vida longa</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/featured-game-3.jpg" width="450" height="600" loading="lazy"
-                    alt="Egypt Hunting Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                      Açoes <span class="span">Marcadas</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">O melhor do RP</span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      Equipe <span class="span">Ação</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Seja destaque.</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/featured-game-4.jpg" width="450" height="600" loading="lazy"
-                    alt="Just for Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                       <span class="span"></span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span"></span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      As Melhores<span class="span">Fugas</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Marrocos RP</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-            
-			<li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/featured-game-1.jpg" width="450" height="600" loading="lazy"
-                    alt="Just for Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                      Familia <span class="span">Marrocos</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Reunião, Parceria</span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      Familia <span class="span">Unida</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">A Melhor, fac de drogas da cidade.</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/festa.png" width="450" height="600" loading="lazy"
-                    alt="Need for Speed" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                      Marrocos <span class="span">Baile</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Baile de favela</span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      Baile na <span class="span">Favela</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Vida longa</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/veve.png" width="450" height="600" loading="lazy"
-                    alt="Egypt Hunting Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                      Gerente de <span class="span">Açoes</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Açoes marcadas</span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      Equipe <span class="span">Ação</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Venha fazer parte.</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="scrollbar-item">
-              <div class="featured-game-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
-                  <img src="./assets/images/cod1.png" width="450" height="600" loading="lazy"
-                    alt="Just for Gamers" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title" tabindex="-1">
-                       <span class="span"></span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span"></span>
-                  </span>
-
-                </div>
-
-                <div class="card-content-overlay">
-
-                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
-                    class="card-icon">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">
-                      Cobranças<span class="span">Marrocos</span>
-                    </a>
-                  </h3>
-
-                  <span class="card-meta">
-                    <ion-icon name="notifications"></ion-icon>
-
-                    <span class="span">Marrocos RP</span>
-                  </span>
-
-                </div>
-
-              </div>
-            </li>
-
-			
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SHOP
-      -->
-
-      <section class="section shop" id="regras" aria-label="shop"
-        style="background-image: url('./assets/images/shop-bg.jpg')">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            leia as <span class="span">REGRAS</span>
-          </h2>
-
-          <p class="section-text">
-            1) Proibido uso de qualquer ferramenta ilegal dentro do RP.
-			
-          </p>
-		   <p class="section-text">
-            2) Mantenha um ambiente amigavel,Os conflitos mais rotineiros nas organizações e que desestabiliza o trabalho em equipe.
-			
-          </p>
-		   <p class="section-text">
-            3) Somos uma familia e não toleramos falta de respeito com os membros.
-			
-          </p>
-		   <p class="section-text">
-            4) Metas da fac, deve ser entregues nas datas combinadas no discord.
-			
-          </p>
-		   <p class="section-text">
-            5) Todos os membros deve ouvir atentamente sua liderança, independente de 01.
-			
-          </p>
-		  <p class="section-text">
-            6) Adv1: O Membro é suspenso  por 7 dias das suas ativadades dentro da fac, perdendo o direito ao uso do bau e salario da semana. <p class="section-text">
-            
-          </p>
-		   <p class="section-text">
-            7) Adv2: O Membro é desligado da fac (Pd) <p class="section-text">
-            
-          </p>
-		  
-		  <p class="section-text">
-            8) 6) Uso obrigatorio da radio 955, assim que adentrar a cidade. <p class="section-text">
-            
-          </p>
-
-
- 
-
-
-
-
-
-      <!-- 
-        - #NEWSLETTER
-      -->
-
-      <section class="newsletter" aria-label="newsletter">
-        <div class="container">
-
-          <div class="newsletter-card">
-
-            <h2 class="h2">
-              REGRAS: <span class="span">FIQUE ATENTO!</span>
-            </h2>
-
-            
-        </div>
-      </section>
 
     </article>
   </main>
@@ -831,37 +408,25 @@
 
 
 
-  
-
-           
-        </div>
-
-      </div>
-    </div>
+ 
 
     <div class="footer-bottom">
       <div class="container">
-
         <p class="copyright">
-          &copy; 2022 Marrocos. All Right Reserved by <a href="#" class="copyright-link">Familia RP</a>
+          Copyright &copy; 2023 <a href="#">marrocosrp</a>. all rights reserved
         </p>
 
-       
-      </div>
-    </div>
-
-  </footer>
-
+        <
 
 
 
 
   <!-- 
-    - #BACK TO TOP
+    - #GO TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="caret-up"></ion-icon>
+  <a href="#top" class="btn btn-primary go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
   </a>
 
 
@@ -871,7 +436,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/script.js"></script>
 
   <!-- 
     - ionicon link

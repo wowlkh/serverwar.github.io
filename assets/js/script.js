@@ -1,53 +1,48 @@
 'use strict';
 
+/**
+ * element toggle function
+ */
+
+const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
-const navbar = document.querySelector("[data-navbar]");
-const navbarLinks = document.querySelectorAll("[data-nav-link]");
-const navbarToggler = document.querySelector("[data-nav-toggler]");
 
-navbarToggler.addEventListener("click", function () {
-  navbar.classList.toggle("active");
-  this.classList.toggle("active");
-});
+/**
+ * navbar variables
+ */
 
-for (let i = 0; i < navbarLinks.length; i++) {
-  navbarLinks[i].addEventListener("click", function () {
-    navbar.classList.remove("active");
-    navbarToggler.classList.remove("active");
-  });
+const navbar = document.querySelector("[data-nav]");
+const navOpenBtn = document.querySelector("[data-nav-open-btn]");
+const navCloseBtn = document.querySelector("[data-nav-close-btn]");
+const overlay = document.querySelector("[data-overlay]");
+
+const navElemArr = [navOpenBtn, navCloseBtn, overlay];
+
+for (let i = 0; i < navElemArr.length; i++) {
+
+  navElemArr[i].addEventListener("click", function () {
+    elemToggleFunc(navbar);
+    elemToggleFunc(overlay);
+    elemToggleFunc(document.body);
+  })
+
 }
 
 
 
 /**
- * search toggle
+ * go top
  */
 
-const searchTogglers = document.querySelectorAll("[data-search-toggler]");
-const searchBox = document.querySelector("[data-search-box]");
-
-for (let i = 0; i < searchTogglers.length; i++) {
-  searchTogglers[i].addEventListener("click", function () {
-    searchBox.classList.toggle("active");
-  });
-}
-
-
-
-/**
- * header
- */
-
-const header = document.querySelector("[data-header]");
-const backTopBtn = document.querySelector("[data-back-top-btn]");
+const goTopBtn = document.querySelector("[data-go-top]");
 
 window.addEventListener("scroll", function () {
-  if (window.scrollY >= 200) {
-    header.classList.add("active");
-    backTopBtn.classList.add("active");
+
+  if (window.scrollY >= 800) {
+    goTopBtn.classList.add("active");
   } else {
-    header.classList.remove("active");
-    backTopBtn.classList.remove("active");
+    goTopBtn.classList.remove("active");
   }
-});
+
+})
