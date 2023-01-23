@@ -146,7 +146,7 @@
 
           <div class="btn-group">
 
-            <button class="btn btn-primary" onclick="openYoutubeVideo('https://youtu.be/pCwmLidKaE8">
+            <button class="btn btn-primary" onclick="openYoutubeVideo('https://www.youtube.com/watch?v=pCwmLidKaE8&ab_channel=AntaresRP')">
   <span>Clipe</span>
   <ion-icon name="play-circle"></ion-icon>
 </button>
