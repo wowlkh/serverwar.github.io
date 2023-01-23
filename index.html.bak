@@ -325,6 +325,16 @@
                   <img src="./assets/images/gallery-img-4.jpg" alt="Gallery image">
                 </figure>
               </li>
+			  <li>
+                <figure class="gallery-item">
+                  <img src="./assets/images/gallery-img-4.jpg" alt="Gallery image">
+                </figure>
+              </li>
+			  <li>
+                <figure class="gallery-item">
+                  <img src="./assets/images/gallery-img-4.jpg" alt="Gallery image">
+                </figure>
+              </li>
 
             </ul>
 
@@ -385,7 +395,7 @@
 
             </ul>
 
-            <button class="btn btn-primary">luan - guilherme - rael - bea - th - barriga - cabral - emmy - kayzer - rick - dybala - bruno - beto - jhon - gomides - digones </button>
+            <button class="btn btn-primary">luan - guilherme - rael - bea - th - barriga - cabral - emmy - kayzer - rick - dybala - bruno - beto - jhon - gomides - digones - Robert - Lampião </button>
 
           </div>
         </section>
