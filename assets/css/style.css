@@ -136,7 +136,7 @@ body.active { overflow-y: hidden; }
   border-radius: 10px;
 }
 .about-img {
-  animation: move-image 5s linear infinite;
+  animation: move-image 12000s linear infinite;
 }
 
 @keyframes move-image {
