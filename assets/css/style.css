@@ -435,7 +435,6 @@ img {
   position: relative;
 }
 
-/* Estilos para o vídeo */
 .hero video {
   position: absolute;
   top: 0;
@@ -444,6 +443,8 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+
 
 .hero-subtitle {
   color: var(--white);
